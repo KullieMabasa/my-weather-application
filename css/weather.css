@@ -1,0 +1,137 @@
+h1 {
+  font-size: 55px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+h1:hover {
+  color: aliceblue;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.container {
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.col-4 {
+  margin: 50px auto;
+}
+.main,
+.article {
+  background-color: hsla(187, 42%, 80%, 0.5); /*background opacity*/
+  border-radius: 20px;
+  margin: 0px auto;
+  padding: 10px 60px;
+  justify-content: center;
+}
+.main {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  padding: 10px 10px;
+}
+.emoji-h1 {
+  font-size: 50px;
+  transition: all 200ms ease-in-out;
+}
+.emoji-h1:hover {
+  font-size: 60px;
+}
+.article {
+  padding: 10px;
+}
+.weather-grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  padding: 60px 0px;
+  line-height: 35px;
+}
+.weather-grid p {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.emoji {
+  font-size: 25px;
+  transition: all 200ms ease-in-out;
+}
+.emoji:hover {
+  font-size: 30px;
+}
+.footer p {
+  font-size: 20px;
+  overflow: auto;
+  height: 100%;
+  line-height: 50px;
+  height: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+.units {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: transparent;
+
+  position: relative;
+  top: -20px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.col-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.humidity {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #fff;
+}
