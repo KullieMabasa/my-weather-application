@@ -107,7 +107,7 @@ function showForecast(latitude, longitude) {
       "Saturday",
     ];
 
-    forecast.slice(0, 7).forEach(function (forecastData, index) {
+    forecast.slice(0, 6).forEach(function (forecastData, index) {
       let timestamp = forecastData.dt * 1000;
       let date = new Date(timestamp);
       let dayIndex = (currentDay + index) % 7; // Calculate the correct day index
