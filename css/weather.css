@@ -78,7 +78,7 @@ h4 {
 .weather-grid {
   margin-top: 10px;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto;
   padding: 60px 0px;
   line-height: 35px;
 }
